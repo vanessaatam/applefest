@@ -166,14 +166,14 @@ nav ul {
 .header-top{
     display: flex;
     flex-flow: nowrap;
-    width:auto;
 }
 .nav-tag{
     display: flex;
     flex-flow: nowrap;
     font-size: 24px;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 10%;
+    white-space:nowrap;
     color: white;
     align-items: center;
     font-style: italic;
