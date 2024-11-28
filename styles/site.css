@@ -2,33 +2,32 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
-    background-color: rgb(243, 222, 200);
+    background-color:rgba(243, 222, 200, 0.446);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-size: 18.5px;
 }
 .header{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     padding: 1% 2px;
     background-color: brown;
+
 }
 
 main {
     display: flex;
     flex-flow: row nowrap;
-    background-color: rgb(243, 222, 200);
-    width: 95%;
+    min-height: 66vh;
+
+
 }
 
 article {
     display: flex;
     flex-flow: column nowrap;
-    flex: 3;
     width: 100%;
-    background-color: white;
     color: rgb(113, 25, 17);
-    background-color:rgb(243, 222, 200);
     color: rgba(53, 48, 48, 0.742);
 
 }
@@ -43,17 +42,18 @@ main img {
     justify-content: center;
     align-items: center;
 }
-
 .logo{
     margin-top: 10px;
     margin-bottom: 10px;
     width: 80%;
+    margin-left: 30%;
 
 }
 .logo2{
     max-width: 90px;
     margin-left: 20%;
     padding: 5%;
+
 
 }
 h3{
@@ -137,12 +137,15 @@ nav ul li a{
     background-color: brown;
     color: white;
     text-decoration: none;
-    font-weight: 530;
-    font-size: 18px;
-    border-radius: 20px;
+    font-size: 20px;
+    border-radius: 2px;
+    font-weight: 325;
+
+
+
 }
 nav ul li a:hover {
-    background-color: #ebd1b4cd;
+    background-color: #f4ddc4b0;
     padding: 10px;
 }
 nav ul {
@@ -150,11 +153,32 @@ nav ul {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    font-size: 18px;
+    font-size: 22px;
     text-decoration: none;
+    font-weight: 325;
+
 }
+.navbar{
+    padding-left: 30%;
+    padding-top:2%;
 
-
+}
+.header-top{
+    display: flex;
+    flex-flow: nowrap;
+    width:auto;
+}
+.nav-tag{
+    display: flex;
+    flex-flow: nowrap;
+    font-size: 24px;
+    margin-left: 5%;
+    margin-top: 10%;
+    color: white;
+    align-items: center;
+    font-style: italic;
+    font-weight: 325;
+}
 /* flex */
 .flex-row {
     display: flex;
@@ -162,39 +186,38 @@ nav ul {
 }
 
 .index-ent{
-    background-color:rgba(255, 255, 255, 0.684);
+    background-color:rgba(255, 255, 255, 0.811);
     color: rgb(101, 57, 15);
     border-radius: 5px;
     margin-bottom: 3%;
-    margin-left: 5%;
     border: solid black;
-    padding: 2% 3% 2% 3%;
+    padding: 2% 2% 2% 2%;
 
 }
 
 /* home */
 .festival-img{
     margin-top: 3%;
-    margin-bottom: 3%;
-    max-width: 80%;
+    margin-bottom: 2%;
+    max-width: 90%;
+
 }
 .music-img{
     max-width:400px;
     min-width: 200px;
     margin-top: 25px;
+    padding-right: 10%;
 }
 .music-img-cite{
     display: flex;
     flex-flow: column nowrap;
-    flex: 1;
-    margin-left: 6%;
+    flex: 4;
 }
 .entertainment-col{
     display: flex;
-    flex:1;
+    flex:3;
     flex-direction:column;
     margin-left: 5%;
-    margin-right: 3%;
 }
 .heading-li{
     list-style: none;
@@ -209,11 +232,72 @@ ul{
 }
 .h2-home{
     color:rgb(143, 48, 0);
+    padding-top: 0;
 }
 .text-align{
     text-align: center;
 }
+.eat-apple-img{
+    display: flex;
+    max-width: 85%;
+    margin-top: 5%;
+    margin-bottom: 8%;
 
+}
+
+.blue-img{
+    display: flex;
+    max-width: 75%;
+    margin-top: 27%;
+}
+.days{
+    margin-left: 7%;
+    margin-top: 5%;
+}
+/* faq */
+.form-center{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.faq{
+    margin-top: 5%;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+#request-email{
+    width: 20%;
+}
+.form-label{
+    margin-bottom: 1%;
+
+
+}
+#request-submit{
+    border: 1px solid rgb(113, 25, 17);
+    border-radius: 5px;
+    background-color: rgb(113, 25, 17);
+    color: rgba(250, 238, 225);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+
+  }
+.right-align{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.answer-confirm{
+    display: flex;
+    margin-left: 0;
+    overflow-wrap: anywhere;
+}
 /* about */
 .history-aside{
     margin-left: 10%;
@@ -361,7 +445,7 @@ ul{
     background: none;
     padding: 0;
     float: right;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 5%;
     z-index: 3;
     width: 18%;
@@ -434,4 +518,3 @@ ul{
 .hidden{
     display: none;
 }
-
